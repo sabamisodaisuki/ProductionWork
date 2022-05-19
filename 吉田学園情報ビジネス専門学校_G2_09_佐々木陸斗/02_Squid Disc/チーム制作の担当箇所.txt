@@ -1,0 +1,12 @@
+タイトル画面の選択肢処理			（Choices.cpp)
+妨害要素のイカの処理				(Enemy.cpp)
+画面遷移の処理						(fade.cpp)
+フレームの処理						（Frame.cpp)
+ゲームの処理						(game.cpp)
+インクの処理						(Ink.cpp)
+リザルトの処理						(result.cpp)
+勝敗ロゴの処理						(Rogo.cpp)
+ゲーム説明の処理					(Setumei.cpp)
+操作説明の処理						(Sousa.cpp)
+タイトルの処理						(title.cpp)
+BGM,SE,画像制作

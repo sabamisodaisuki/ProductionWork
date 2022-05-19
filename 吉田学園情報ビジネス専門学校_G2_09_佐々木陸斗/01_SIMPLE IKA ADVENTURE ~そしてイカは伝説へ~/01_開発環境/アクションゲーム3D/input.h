@@ -1,0 +1,17 @@
+//============================================================
+//
+// 3D制作　キーボード処理[billborad.h]
+// AUTHOR:Sasaki Rikuto
+//
+//============================================================
+#ifndef _INPUT_H_
+#define _INPUT_H_
+#include "main.h"
+//プロトタイプ宣言
+HRESULT InitKeyboard(HINSTANCE hInstance, HWND hWnd);
+void UninitKeyboard(void);
+void UpdateKeyboard(void);
+bool GetKeyboardPress(int nKey);
+bool GetKeyboardTrigger(int nKey);
+#endif
+
