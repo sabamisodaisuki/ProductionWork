@@ -10,15 +10,15 @@
 //============================================================
 //マクロ定義
 //============================================================
-#define MAX_Billborad		(256)	//ビルボードの最大数
-#define Billborad_SIZE_X		(60)	//ビルボードのサイズ
-#define Billborad_SIZE_Y 	(60)	//ビルボードのサイズ
+#define MAX_Billborad		(256)		//ビルボードの最大数
+#define Billborad_SIZE_X	(60)	//ビルボードのサイズ
+#define Billborad_SIZE_Y 	(60)		//ビルボードのサイズ
 //============================================================
 //グローバル変数
 //============================================================
 LPDIRECT3DTEXTURE9 g_pTextureBillborad = NULL;
-LPDIRECT3DVERTEXBUFFER9 g_pVtxBuffBillborad = NULL;	// 頂点バッファへのポインタ
-Billborad g_aEffect[MAX_Billborad];						  //影
+LPDIRECT3DVERTEXBUFFER9 g_pVtxBuffBillborad = NULL;		// 頂点バッファへのポインタ
+Billborad g_aEffect[MAX_Billborad];						//エフェクト数
 
 //============================================================
 // ビルボードの初期化
@@ -115,7 +115,7 @@ void UninitBillborad(void)
 //============================================================
 void UpdateBillborad(void)
 {
-
+	//使用無し
 }
 
 //============================================================
